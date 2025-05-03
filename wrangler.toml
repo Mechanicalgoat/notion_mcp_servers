@@ -1,0 +1,5 @@
+# wrangler.toml
+name               = "notion-mcp"           # 任意のワーカー名（英数字・ダッシュのみ）
+compatibility_date = "2025-05-03"           # 今日以降の日付
+main               = "src/index.ts"         # エントリーポイントのパス
+workers_dev        = true                   # workers.dev サブドメインで公開
